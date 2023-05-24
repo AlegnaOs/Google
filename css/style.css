@@ -1,0 +1,87 @@
+body{
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: black !important;
+    height: 100vh;
+}
+header{
+    height: 10vh;
+}
+section{
+    text-align: center;
+    padding: 10px;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 65vh;
+    justify-content: center;
+}
+img{
+    padding: 5px;
+    width: 35px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+li{
+    padding: 5px;
+    margin: 5px;
+    align-self: center;
+}
+a{
+    text-decoration:none;
+}
+footer{
+    background: #f2f2f2;
+    height: 20vh;
+}
+.seccion0{
+    padding: 11px 49px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+.seccion1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.foto{
+    border-radius: 50%;
+}
+.busqueda{
+    display: flex;
+    justify-content: center;
+    border: black 1px solid;
+    width: 600px;
+    border-radius: 50px;
+}
+#entrada{
+    border:0;
+    width: 445px;
+    outline: none;
+}
+.formulario{
+    padding: 5px;
+}
+.logo{
+    width: auto;
+}
+.buscar{
+    width: 575px;
+    display: flex;
+    justify-content: space-between;
+}
+.botones{
+    padding-top: 26px;
+}
+.btn{
+    height: 40px;
+    padding: 10px;
+    margin: 2px;
+}
